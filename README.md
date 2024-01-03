@@ -2,6 +2,6 @@
 
 ## To run Development App
 ```
-cd my-project
+cd my-profile
 npm run
 ```
