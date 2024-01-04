@@ -1,0 +1,74 @@
+.home-page{
+    .text-zone {
+        background-image: url("../../assets/images/background.jpg");
+        background-size: cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    h1{
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 300px;
+        height: 100%;
+        width: 100%;
+        font-size: 60px;
+        color: #ffffff;
+        animation: fadeIn 1s backwards;
+        
+    }
+
+    h3{
+        position: fixed;
+        color: #8d8d8d;
+        margin-left: 300px;
+        height: 100%;
+        width: 100%;
+        margin-top: 640px;
+        animation: fadeIn 0.9s 1.8s backwards;
+    }
+    .flat-button {
+        position: fixed;
+        margin-top: 700px;
+        margin-left: 300px;
+        color: #ffffff;
+        font-size: 25px;
+
+        letter-spacing: 5px;
+        font-family: monospace;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 3px solid #ffffff;
+        animation: fadeIn 1s 2.5s backwards;
+        white-space: nowarp;
+
+        &:hover {
+            background: #5665eb;
+            color: #ffffff;
+        }
+    }
+
+}
+/*
+
+
+
+
+
+
+
+    .text-zone {
+        position: absolute;
+        left: 15%;
+        top: 40%;
+        width: 100%;
+        font-family: monospace;
+        font-size: 20px;
+    }
+
+
+
+
+*/
