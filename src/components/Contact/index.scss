@@ -1,0 +1,101 @@
+.contact-page{
+    background-image: url("../../assets/images/background2.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 130%;
+    width: 100%;
+    font-family: monospace;
+    color: #4b6b8b;
+
+    .text-zone{
+        position: absolute;
+        left: 20%;
+        top: 10%;
+        animation: fadeIn 1s 1.5s backwards;
+        h1 {
+            font-size: 75px;
+    
+        }
+        p{
+            margin-top: -30px;
+            font-size: 14px;
+            width: 500px;
+        }
+        .contact-form{
+            width: 100%;
+            margin-top: 20px;
+
+            ul{
+            padding: 0;
+            margin: 0;
+            }
+            li{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                margin-bottom: 10px;
+                overflow: hidden;
+                display: block;
+                position: relative;
+                opacity: 0;
+                animation: fadeInUp 2s 2s;
+                animation-fill-mode: forwards;
+                clear: both;
+            }
+            li.half{
+                width: 49%;
+                margin-left: 2%;
+                float: left;
+                clear: none;
+
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+        input[type='text'],
+        input[type='email'] {
+            width: 100%;
+            border: 0 solid;
+            background: #fff;
+            height: 50px;
+            font-size: 15px;
+            color: #4b6b8b;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+        textarea{
+            width: 100%;
+            border: 0;
+            background: #fff;
+            height: 50px;
+            font-size: 16px;
+            padding: 20px;
+            min-height: 150px;
+            color:#4b6b8b;
+            box-sizing: border-box;
+
+        }
+        .flat-button{
+            color:#4b6b8b;
+            background: 0 0;
+            font: 11px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 8px 10px;
+            border: 2px solid #4b6b8b;
+            float: right;
+            border-radius: 4px;
+
+            &:hover {
+                background: #4b6b8b;
+                color: #ffffff;
+            }
+        }
+
+    }
+
+
+
+}
