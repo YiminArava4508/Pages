@@ -1,11 +1,13 @@
 .nav-bar {
-    background: rgb(28, 31, 66);
+    background: #2e303e;
     width: 100px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 3;
     min-height: 500px;
+    box-shadow: 0 0 25px;
+
 
     .logo{
         display: block;
@@ -101,19 +103,20 @@
 
     ul {
         position: relative;
+        top: 0%;
         bottom: 0px;
         width: 100%;
         display: block;
         padding: 0;
         list-style: none;
         text-align: center;
-        margin: 20;
+
 
         li {
             a{
-                padding: 10px 0;
+                padding: 6px 0;
                 display: block;
-                font-size: 30px;
+                font-size: 25px;
                 line-height: 16px;
 
 

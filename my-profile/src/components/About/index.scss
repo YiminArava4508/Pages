@@ -1,0 +1,33 @@
+.about-page{
+    background-image: url("../../assets/images/background2.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 130%;
+    width: 100%;
+    font-family: monospace;
+    color: #4b6b8b;
+
+
+    
+    h1 {
+        position: absolute;
+        left: 20%;
+        top: 15%;
+        font-size: 40px;
+        animation: fadeIn 1s 1.5s backwards;
+        
+    }
+
+    p{
+
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        font-size: 20px;
+        max-width: 800px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+
+
+}   
