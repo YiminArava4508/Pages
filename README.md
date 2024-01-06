@@ -1,7 +1,12 @@
 # Pages
 
-## To run Development App
+## To run React App locally:
 ```
-cd my-profile
-npm run
+
+npm start
+```
+
+## To deploy React App:
+```
+npm run deploy
 ```
