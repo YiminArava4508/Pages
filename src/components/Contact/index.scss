@@ -4,17 +4,18 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    font-family: monospace;
+    font-family: sans-serif;
     .text-zone{
         position: absolute;
         left: 15%;
         top: 10%;
         animation: fadeIn 1s 1.5s backwards;
-        color:#4b6b8b;
+        color:#2f2f2f;
         width: 500px;
 
         h1 {
             font-size: 75px;
+            margin-left: -3px;
         }
         p{
             margin-top: -50px;
@@ -57,7 +58,7 @@
             background: #fff;
             height: 50px;
             font-size: 15px;
-            color: #4b6b8b;
+            color: #2f2f2f;
             padding: 0 20px;
             box-sizing: border-box;
         }
@@ -70,13 +71,14 @@
             font-size: 16px;
             padding: 20px;
             min-height: 150px;
-            color:#4b6b8b;
+            color:#2f2f2f;
             box-sizing: border-box;
 
         }
         .flat-button{
             color:#4b6b8b;
             background: 0 0;
+            background-color: #ffffff;
             font: 11px;
             letter-spacing: 3px;
             text-decoration: none;
