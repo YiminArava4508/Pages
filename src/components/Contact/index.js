@@ -18,7 +18,7 @@ const sendEmail = (e) => {
         .then(
             ()=>{
                 alert('Message Successfully sent!')
-                window.location.reload(true)
+                window.location.reload(false)
 
             },
             () => {
