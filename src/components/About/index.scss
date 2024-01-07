@@ -1,32 +1,41 @@
 .about-page{
     background-image: url("../../assets/images/background2.jpg");
     background-size: cover;
-    position: absolute;
-    height: 130%;
+    height: 100%;
     width: 100%;
+    position: absolute;
     font-family: monospace;
-    color: #4b6b8b;
-
-
-    
-    h1 {
+    .text-zone{
+        margin-top:45px;
         position: absolute;
+        left: 15%;
+        top: 45%;
+        transform: translateY(-70%);
+        width: 50%;
+        max-height: 75%;
+        overflow:visible;
+
+    h1 {
+        position: relative;
         left: 20%;
         top: 15%;
-        font-size: 40px;
+        font-size: 50px;
         animation: fadeIn 1s 1.5s backwards;
-        
+        color:#4b6b8b;
     }
-
+    
     p{
 
-        position: absolute;
+        position: relative;
         left: 20%;
         top: 20%;
         font-size: 20px;
         max-width: 800px;
         animation: fadeIn 1s 1.8s backwards;
+        color: #4b6b8b;
     }
+}
+
 
 
 

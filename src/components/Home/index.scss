@@ -1,56 +1,63 @@
 .home-page{
+    background-image: url("../../assets/images/background2.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: monospace;
     .text-zone {
-
-        background-image: url("../../assets/images/background2.jpg");
-        background-size: cover;
+        margin-top:45px;
         position: absolute;
-        height: 130%;
-        width: 100%;
-        font-family: monospace;
-        font-size: 20px;
-        min-width: 1080px;
-        min-height: 1400px;
+        left: 15%;
+        top: 45%;
+        transform: translateY(-70%);
+        width: 50%;
+        max-height: 90%;
 
+        
+        h1{
+            position: relative;
+            line-height: 53px;
+            font-size: 50px;
+            top: 24%;
+            left: 20%;
+            height: 100%;
+            width: 100%;
+            margin: 0;    
+            color: #4b6b8b;
+            animation: fadeIn 1s 1.5s backwards;
+        }
+        
+        h3{
+            position: relative;
+            color: #62948d;
+            left: 20%;
+            margin-top: 18px;
+            height: 100%;
+            width: 100%;
+            animation: fadeIn 1s 1.8s backwards;
+            font-size: 15px;
+        }
 
-    }
-    h1{
-        position: absolute;
-        top: 24%;
-        left: 20%;
-        height: 100%;
-        width: 100%;
-        font-size: 200%;
-        color: #4b6b8b;
-        animation: fadeIn 1s 1.5s backwards;
-    }
+    
 
-    h3{
-        position: absolute;
-        color: #62948d;
-        left: 20%;
-        top: 28.5%;
-        height: 100%;
-        width: 100%;
-        animation: fadeIn 1s 1.8s backwards;
-        font-size: 70%;
     }
     .flat-button {
         position: absolute;
-        top: 32%;
         left: 20%;
-        color: #4b6b8b;
-        font-size: 100%;
-
+        color: #90887d;
+        font-size: 18px;
         letter-spacing: 5px;
         font-family: monospace;
         text-decoration: none;
         padding: 10px 18px;
-        border: 3px solid #4b6b8b;
+        border: 3px solid #90887d;
         animation: fadeIn 1s 2.5s backwards;
-        white-space: nowarp;
+        white-space: nowrap;
+        background-color: #fff;
 
         &:hover {
-            background: #4b6b8b;
+            background: #90887d;
             color: #ffffff;
         }
     }

@@ -34,14 +34,14 @@
         position: absolute;
         width: 100px;
         height: auto;
-        top: 65%;
-        margin-top: 0px;
+        top: 45%;
+        margin-top: 10px;
         
         a {
             font-size: 30px;
             color: #4d4d4e;
             display: block;
-            line-height: 80px;
+            line-height: 0px;
             height: 100px;
             position: relative;
             text-decoration: none;
@@ -66,7 +66,7 @@
                 font-size: 20px;
                 letter-spacing: 2px;
                 position: relative;
-                bottom: 80px;
+                bottom: 15px;
                 display: block;
                 width: 150;
                 text-align: center;
@@ -114,10 +114,10 @@
 
         li {
             a{
-                padding: 6px 0;
+                padding: 0px 0;
                 display: block;
-                font-size: 25px;
-                line-height: 16px;
+                font-size: 15px;
+                line-height: 5px;
 
 
                 &:hover svg {

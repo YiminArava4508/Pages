@@ -1,30 +1,27 @@
 .contact-page{
     background-image: url("../../assets/images/background2.jpg");
     background-size: cover;
-    position: absolute;
-    height: 130%;
+    height: 100%;
     width: 100%;
+    position: absolute;
     font-family: monospace;
-    color: #4b6b8b;
-
     .text-zone{
         position: absolute;
-        left: 20%;
+        left: 15%;
         top: 10%;
         animation: fadeIn 1s 1.5s backwards;
+        color:#4b6b8b;
+        width: 500px;
+
         h1 {
             font-size: 75px;
-    
         }
         p{
-            margin-top: -30px;
+            margin-top: -50px;
             font-size: 14px;
-            width: 500px;
+
         }
         .contact-form{
-            width: 100%;
-            margin-top: 20px;
-
             ul{
             padding: 0;
             margin: 0;
@@ -34,7 +31,7 @@
                 margin: 0;
                 list-style: none;
                 margin-bottom: 10px;
-                overflow: hidden;
+                overflow: visible;
                 display: block;
                 position: relative;
                 opacity: 0;
