@@ -1,9 +1,9 @@
 # Getting Started
 This Website is hosted at https://yiminarava4508.github.io/Pages/
 
-## Tech Stack:
-* ([React.js](https://react.dev/))
-
+## Technolgy used:
+* [React.js](https://react.dev/)
+  
 
 
 
