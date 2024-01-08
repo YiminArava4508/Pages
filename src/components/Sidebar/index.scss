@@ -87,6 +87,11 @@
                 content: 'ABOUT';
             }
         }
+        a.project-link {
+            &:after {
+                content: 'PROJECT';
+            }
+        }
         a.contact-link {
             &:after {
                 content: 'CONTACT';
