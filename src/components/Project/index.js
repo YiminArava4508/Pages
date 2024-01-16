@@ -7,9 +7,11 @@ const Project = () => {
     return (
         <>
             <div className="container project-page" >
-                <h1>
-                    Hi
-                </h1>
+                <div className="text-zone">
+                    <h1>
+                        Page under construction...
+                    </h1>
+                </div>
             </div>
             <Loader type="pacman" />
         </>

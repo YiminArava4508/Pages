@@ -13,36 +13,36 @@ const About = () => {
                     About me
                 </h1>
                     <p>
-                    Despite me majoring in data science,through my incredible internship experience 
+                    Hello! I graduated in 2023 with a B.S. in Statistics and Data Science 
+                    Degree from UCSB. I started really getting into coding around 
+                    my 2nd to 3rd year in college
+                    when I participated in a summer workshop internship.
+                    
+                    <br></br>
+                    <br></br>
+                    Thanks to my incredible internship experience 
                     as a backend developer with the UCSB Data Science club, 
-                    I have now decided to pursue my new found passion in software development.
+                    I learned the software development cycle 
+                    and what it's like to be apart of a professional team environment.
+                    I find myself liking software development more after the internship so
+                    I started doing software projects on my free time.
+                    
                     <br></br>
                     <br></br>
-                    I am eager to connect with fellow Software Developers,
-                    Data Scientists, Engineers, Analysts, and Professionals 
-                    who also share my desire to learn, improve, and make impactful changes 
+                    I created this project as a way to gain some frontend experience with React.js.
+                    I also wanted to have a portfolio for all my projects.
+                    <br></br>
+                    <br></br>
+                    Hey, thanks for reading! If you want to reach me, 
+                    you can email me on contact me page.
+                    I have much to learn and I'm open to all kinds of feedbacks!
+                    Please feel free to reach out if you want to discuss any data-related topics or opportunities.
+                    I am eager to connect with fellow Software/Data Engineers, Analysts,
+                    Developers who also share my desire to learn, improve, and make impactful changes 
                     in this data-driven world. 
-                    <br></br>
-                    <br></br>
-                    I still have much to learn, and I'm open to all kinds of feedbacks, 
-                    so please feel free to reach out if you want to discuss any data-related topics or opportunities.
                     </p>
-                                        <p>
-                    Despite me majoring in data science,through my incredible internship experience 
-                    as a backend developer with the UCSB Data Science club, 
-                    I have now decided to pursue my new found passion in software development.
-                    <br></br>
-                    <br></br>
-                    I am eager to connect with fellow Software Developers,
-                    Data Scientists, Engineers, Analysts, and Professionals 
-                    who also share my desire to learn, improve, and make impactful changes 
-                    in this data-driven world. 
-                    <br></br>
-                    <br></br>
-                    I still have much to learn, and I'm open to all kinds of feedbacks, 
-                    so please feel free to reach out if you want to discuss any data-related topics or opportunities.
-                    </p>
-
+       
+      
                     <Row className="bar-zone">
                         <h3>
                             Skills
