@@ -23,9 +23,9 @@ const About = () => {
                     Thanks to my incredible internship experience 
                     as a backend developer with the UCSB Data Science club, 
                     I learned the software development cycle 
-                    and what it's like to be apart of a professional team environment.
+                    and what it's like to be a part of a professional team environment.
                     I find myself liking software development more after the internship so
-                    I started doing software projects on my free time.
+                    I started doing software projects in my free time.
                     
                     <br></br>
                     <br></br>
