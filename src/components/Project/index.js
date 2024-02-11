@@ -54,7 +54,8 @@ const Project = () => {
                     <div className="project">
                         <img src = {dataproject} alt = 'project_pic' />
                         <h2 className= "project_title "> 
-FIFA Video Game Player Data Analysis</h2>
+                            FIFA Video Game Player Data Analysis
+                            </h2>
                         <a href='https://www.linkedin.com/in/yimin-arava/details/projects/1635547539979/single-media-viewer/?profileId=ACoAADZxB2kBuwEWHOvEX6AYU3zT8PwOOYjC9os'>
                             <button className='project_button'>VIEW</button>
                         </a>
