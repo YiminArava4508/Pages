@@ -3,14 +3,56 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     font-family: Helvetica;
-    font-size: large;
 
-    .text-zone{
-        margin: 20%;
-        h1 {
-            left: 20%;
+    .project-container{
+        color: #4b6b8b;
+        margin-left: 10%;
+        margin-top: 5px;;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+        gap:2rem;
+
+    }
+    .project{
+        overflow: hidden;
+        box-shadow: 0 2px 20px;
+        border-radius :10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 200ms ease-in;
+        
+
+        &_title{
+            color: black;
+            margin-left: 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+
+        &_button{
+           letter-spacing: 1px;
+            width: 100%;
+            color: #4b6b8b;
+            padding: 0.5rem;
+            font-weight: bold;
+            font-size: 1rem;
+            border: 0px solid #4b6b8b;
+            background-color: #fff;
+
+            
+            
+            &:hover {
+                cursor: pointer;
+                background: #4b6b8b;
+                color: #ffffff;
+            }
+        }
+        &:hover {
+            transform:scale(1.02);
         }
     }
 
