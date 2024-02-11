@@ -1,3 +1,10 @@
+# My Portfolio Website
+<p align='center'>
+  <a href = 'https://yiminarava4508.github.io/Pages/'>
+    <img src="src/assets/images/Portfolio_readme.jpg" width= 65% />
+  </a>
+</p>
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -10,8 +17,9 @@
 </details>
 
 ## About
-I created a React app to serve as my portfolio website, I chose react because I wanted to learn it and I also needed a portfolio website. 
-This Website is hosted at https://yiminarava4508.github.io/Pages/
+I created a React app to serve as my portfolio website! This Website is hosted at https://yiminarava4508.github.io/Pages/
+
+I'm working actively on this to add more features. There will be a section that displays my work experience and my downloadable resume in the future.
 
 ## Prerequisites
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
