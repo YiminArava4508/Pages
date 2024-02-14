@@ -38,7 +38,11 @@ npm start
 
 ## Details
 
-The navbar uses the free [Fontawesome Icons](https://fontawesome.com/)
+The navbar uses the free [Fontawesome Icons](https://fontawesome.com/) as icons.
+
+
+
+
 Email.js is a service that allows emails to be send from server side javascript directly, I used it to set up the contact me page.
 
 
